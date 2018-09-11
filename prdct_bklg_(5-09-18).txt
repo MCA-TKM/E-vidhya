@@ -10,27 +10,27 @@ PRODUCT BACKLOG
 
 1. 5 Level login ( Admin(principal), Teachers ,Non teaching staffs , Parents ,Student)
 2. Managing user details
-Admin/Principal
+    Admin/Principal
       >View details (staff and students)
       >Give approval for insertion and deletion
       >Change password
 
-Teachers
+    Teachers
       > Add details 
       >Update details
       >View details
       >Change password
-Non teaching staff
+    Non teaching staff
       > Enter details
       > Change password
       > View details
-Parents
+    Parents
      >View notification , marks
-Student
+    Student
      >Add and view details
      > View marks
-
-                 3. Attendance entry and modification
+3. Attendance entry and modification
+4.Comparison of student performances and class analysis 
 
 
 
