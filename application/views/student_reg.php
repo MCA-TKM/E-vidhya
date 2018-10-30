@@ -357,7 +357,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!-- page start-->
         <div class="row">
             <div class="col-lg-12">
-				<form role="form">
+				<form role="form" method="post">
                     <section class="panel">
                         <header class="panel-heading">
                             Basic Details
@@ -365,15 +365,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="panel-body">
                             <div class="position-center">
                                 
-                                <div class="form-group">
+                                <div class="form-group form-group has-success">
                                     <label for="name">Name</label>
                                     <input type="text" class="form-control" name="name" placeholder="Enter name">
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group form-group has-success">
                                     <label for="Date of Birth">Date of Birth</label>
                                     <input type="date" class="form-control" name="dob" placeholder="Date of Birth">
                                 </div>
-                                <div class="form-group">
+								<div class="form-group form-group has-success">
+									<label for="class">Address</label>
+									<textarea name="Text1" cols="40" rows="5" class="form-control input-lg m-bot15" type="text" placeholder=".input-lg" name="address"></textarea>  
+								</div>
+                                <div class="form-group form-group has-success form-inline">
 									<label for="gender">Gender</label>
 									<div class="radio">
 										<label>
@@ -388,7 +392,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</label>
 									</div>
                                 </div>
-								<div class="form-group">
+								<div class="form-group form-group has-success ">
                                     <label for="class">Class</label>
 									<div class="form-inline">
 										<select class="form-control" name="class">
@@ -396,18 +400,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<option value="1">1</option>
 											<option value="2">2</option>
 										</select>
-										<select class="form-control " name="class">
+										<select class="form-control " name="division">
 											<option >Division</option>
 											<option value="A">A</option>
 											<option value="B">B</option>
 											<option value="C">C</option>
 										</select>
-									<div>
+									</div>
                                 </div>
-								<div class="form-group">
+								<div class="form-group form-group has-success">
 									<label for="class">Blood group</label>
 									<div class="input-group-btn form-inline">
-										<select class="form-control" name="class">
+										<select class="form-control" name="blood">
 											<option>Select</option>
 											<option value="A+">A+</option>
 											<option value="A-">A-</option>
@@ -420,21 +424,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</select>
 									</div>
 								</div>
-								<div class="form-group">
+								<div class="form-group form-group has-success">
 									<label for="class">Religion</label>
 									<div class="input-group-btn form-inline">
 										<select class="form-control" name="religion">
 											<option>Select</option>
-											<option>A+</option>
+											<option>Hindu</option>
+											<option>Christian</option>
 										</select>
 									</div>
 								</div>
-								<div class="form-group">
+								<div class="form-group form-group has-success">
 									<label for="class">Caste</label>
 									<div class="input-group-btn form-inline">
 										<select class="form-control" name="caste">
 											<option>Select</option>
-											<option>A+</option>
+											<option>Nair</option>
 										</select>
 									</div>
 								</div>
@@ -457,38 +462,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="panel-body">
                             <div class="position-center">
                                 
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" name="name" placeholder="Enter name">
+                                
+                                <div class="form-group form-group has-success">
+                                    <label for="Admission Date">Date of Admission</label>
+                                    <input type="date" class="form-control" name="add_date" placeholder="Date of Admission">
                                 </div>
-                                <div class="form-group">
-                                    <label for="Date of Birth">Date of Birth</label>
-                                    <input type="date" class="form-control" name="dob" placeholder="Date of Birth">
-                                </div>
-                                <div class="form-group">
-									<label for="gender">Gender</label>
-									<div class="radio">
-										<label>
-											<input type="radio" name="gender" value="M" checked="">
-											Male
-										</label>
-									</div>
-									<div class="radio">
-										<label>
-											<input type="radio" name="gender"  value="F" checked="">
-											Female
-										</label>
-									</div>
-                                </div>
-								<div class="form-group">
-                                    <label for="class">Class</label>
+                               
+								<div class="form-group form-group has-success">
+                                    <label for="class">Joined Class</label>
 									<div class="form-inline">
-										<select class="form-control" name="class">
+										<select class="form-control" name="jclass">
 											<option >Class</option>
 											<option value="1">1</option>
 											<option value="2">2</option>
 										</select>
-										<select class="form-control " name="class">
+										<select class="form-control " name="jdivision">
 											<option >Division</option>
 											<option value="A">A</option>
 											<option value="B">B</option>
@@ -496,47 +484,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</select>
 									<div>
                                 </div>
-								<div class="form-group">
-									<label for="class">Blood group</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="class">
-											<option>Select</option>
-											<option value="A+">A+</option>
-											<option value="A-">A-</option>
-											<option value="B+">B+</option>
-											<option value="B-">B-</option>
-											<option value="AB+">AB+</option>
-											<option value="AB--">AB-</option>
-											<option	value="O+">O+</option>
-											<option	value="O-">O-</option>
-										</select>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="class">Religion</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="religion">
-											<option>Select</option>
-											<option>A+</option>
-										</select>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="class">Caste</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="caste">
-											<option>Select</option>
-											<option>A+</option>
-										</select>
-									</div>
-								</div>
-								
-                        
-                        
-
-								
-                                
-                            
                             </div>
 
                         </div>
@@ -548,34 +495,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="panel-body">
                             <div class="position-center">
                                 
-                                <div class="form-group">
-                                    <label for="name">Name</label>
+                                <div class="form-group form-group has-success">
+                                    <label for="gname">Name</label>
                                     <input type="text" class="form-control" name="name" placeholder="Enter name">
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group form-group has-success">
                                     <label for="Date of Birth">Date of Birth</label>
-                                    <input type="date" class="form-control" name="dob" placeholder="Date of Birth">
+                                    <input type="date" class="form-control" name="gdob" placeholder="Date of Birth">
                                 </div>
-                                <div class="form-group">
-									<label for="gender">Gender</label>
-									<div class="radio">
-										<label>
-											<input type="radio" name="gender" value="M" checked="">
-											Male
-										</label>
-									</div>
-									<div class="radio">
-										<label>
-											<input type="radio" name="gender"  value="F" checked="">
-											Female
-										</label>
-									</div>
+                                <div class="form-group form-group has-success">
+                                    <label for="Date of Birth">Relation with student</label>
+                                    <input type="text" class="form-control" name="relation" placeholder="Date of Birth">
                                 </div>
 								
-								<div class="form-group">
+								<div class="form-group form-group has-success">
 									<label for="class">Blood group</label>
 									<div class="input-group-btn form-inline">
-										<select class="form-control" name="class">
+										<select class="form-control" name="gblood">
 											<option>Select</option>
 											<option value="A+">A+</option>
 											<option value="A-">A-</option>
@@ -592,35 +528,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								
 								
                         
-                        <div class="form-group">
+                        <div class="form-group form-group has-success">
 							
 							<label for="class">Address</label>
-                            <input class="form-control input-lg m-bot15" type="text" placeholder=".input-lg">
-                            <input class="form-control m-bot15" type="text" placeholder="Default input">
-                            <input class="form-control input-sm m-bot15" type="text" placeholder=".input-sm">
-
-                            <select class="form-control input-lg m-bot15">
-                                <option>District</option>
-                                <option value="Trivandrum">Trivandrum</option>
-                                <option value="Kollam">Kollam</option>
-								<option value="pathanamthitta">Pathanamthitta</option>
-								<option value="Alappuzha">Alappuzha</option>
-
-                            </select>
-                            
-                            <select class="form-control input-sm m-bot15">
-                                <option>State</option>
-                                <option>Kerala</option>
-                                <option>Tamilnadu</option>
-                            </select>
+							<textarea name="Text1" cols="40" rows="5" class="form-control input-lg m-bot15" type="text" placeholder=".input-lg" name="gaddress"></textarea>  
                         </div>
-						<div class="form-group">
+						<div class="form-group form-group has-success">
                             <label for="Phone">Phone</label>
-                            <input type="text" class="form-control" name="phone" placeholder="pone">
+                            <input type="text" class="form-control" name="gphone" placeholder="pone">
                         </div>
-						<div class="form-group">
+						<div class="form-group form-group has-success">
                             <label for="Phone">email</label>
-                            <input type="email" class="form-control" name="email" placeholder="email">
+                            <input type="email" class="form-control" name="gemail" placeholder="email">
                         </div>
 
 
@@ -647,7 +566,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  <!-- footer -->
 		  <div class="footer">
 			<div class="wthree-copyright">
-			  <p>© miniproject</a></p>
+			  <p>© rahulsatheeshminiproject</a></p>
 			</div>
 		  </div>
   <!-- / footer -->
