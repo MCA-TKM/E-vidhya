@@ -30,4 +30,5 @@ class login_controller extends CI_Controller {
         }        
 
 	}
+	
 }
