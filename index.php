@@ -121,7 +121,7 @@ switch (ENVIRONMENT)
  * VIEW DIRECTORY NAME
  *---------------------------------------------------------------
  *
- * If you want to move the view directory out of the application
+ * If you want to move the view directory out of the application abc
  * directory, set the path to it here. The directory can be renamed
  * and relocated anywhere on your server. If blank, it will default
  * to the standard location inside your application directory.
