@@ -6,8 +6,12 @@ class studentreg_controller extends CI_Controller {
 	
 	public function index()
 	{
+		if(!isset($_SESSION['user']))
+		{
+			$this->load->view('login');
+		}
 		$this->load->helper('url');
-		$this->load->view('view_students');
+		$this->load->view('student_reg');
 		$this->load->model('studentreg_model');
 		if(!isset($_POST['sub']))
 		{
