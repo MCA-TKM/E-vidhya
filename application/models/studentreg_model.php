@@ -70,5 +70,16 @@ class studentreg_model extends CI_Model{
         
         return $result;
     }
+	public function view()
+	{
+		
+		$this->db->select('name,class,division,gender,dob,blood_grp,address,religion,cast');
+		$this->db->from('student');
+		$query = $this->db->get();
+		return $query;
+		
+
+		
+	}
 }
 ?>
