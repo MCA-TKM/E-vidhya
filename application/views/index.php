@@ -240,7 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul class="dropdown-menu extended logout">
                 <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
                 <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
-                <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+                <li><a href="<?php echo base_url('index.php/logout_controller');?>"><i class="fa fa-key"></i> Log Out</a></li>
             </ul>
         </li>
         <!-- user login dropdown end -->
@@ -269,8 +269,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>STUDENT</span>
                     </a>
                     <ul class="sub">
-						<li><a href="typography.html">Add</a></li>
-						<li><a href="glyphicon.html">View</a></li>
+						<li><a href="<?php echo base_url('index.php/studentreg_controller');?>">Add</a></li>
+						<li><a href="<?php echo base_url('index.php/studentview_controller');?>"">View</a></li>
                        
                     </ul>
                 </li>

@@ -6,25 +6,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <head>
-<title>Visitors an Admin Panel Category Bootstrap Responsive Website Template | Form_component :: w3layouts</title>
+<title>Visitors an Admin Panel Category Bootstrap Responsive Website Template | Basic_table :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Visitors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
-<link rel="stylesheet" href="http://localhost/mini/assets/css/bootstrap.min.css" >
+<link rel="stylesheet" href="<?php echo base_url('assets/');?>css/bootstrap.min.css" >
 <!-- //bootstrap-css -->
 <!-- Custom CSS -->
-<link href="http://localhost/mini/assets/css/style.css" rel='stylesheet' type='text/css' />
-<link href="http://localhost/mini/assets/css/style-responsive.css" rel="stylesheet"/>
+<link href="<?php echo base_url('assets/');?>css/style.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo base_url('assets/');?>css/style-responsive.css" rel="stylesheet"/>
 <!-- font CSS -->
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <!-- font-awesome icons -->
-<link rel="stylesheet" href="http://localhost/mini/assets/css/font.css" type="text/css"/>
-<link href="http://localhost/mini/assets/css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="<?php echo base_url('assets/');?>css/font.css" type="text/css"/>
+<link href="<?php echo base_url('assets/');?>css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
-<script src="http://localhost/mini/assets/js/jquery2.0.3.min.js"></script>
+<script src="<?php echo base_url('assets/');?>js/jquery2.0.3.min.js"></script>
 </head>
 <body>
 <section id="container">
@@ -126,7 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 <li>
                     <a href="#">
-                        <span class="photo"><img alt="avatar" src="http://localhost/mini/assets/images/3.png"></span>
+                        <span class="photo"><img alt="avatar" src="images/3.png"></span>
                                 <span class="subject">
                                 <span class="from">Jonathan Smith</span>
                                 <span class="time">Just now</span>
@@ -138,7 +138,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 <li>
                     <a href="#">
-                        <span class="photo"><img alt="avatar" src="http://localhost/mini/assets/images/1.png"></span>
+                        <span class="photo"><img alt="avatar" src="images/1.png"></span>
                                 <span class="subject">
                                 <span class="from">Jane Doe</span>
                                 <span class="time">2 min ago</span>
@@ -150,7 +150,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 <li>
                     <a href="#">
-                        <span class="photo"><img alt="avatar" src="http://localhost/mini/assets/images/3.png"></span>
+                        <span class="photo"><img alt="avatar" src="images/3.png"></span>
                                 <span class="subject">
                                 <span class="from">Tasi sam</span>
                                 <span class="time">2 days ago</span>
@@ -162,7 +162,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 <li>
                     <a href="#">
-                        <span class="photo"><img alt="avatar" src="http://localhost/mini/assets/images/2.png"></span>
+                        <span class="photo"><img alt="avatar" src="images/2.png"></span>
                                 <span class="subject">
                                 <span class="from">Mr. Perfect</span>
                                 <span class="time">2 hour ago</span>
@@ -229,7 +229,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <!-- user login dropdown start-->
         <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                <img alt="" src="http://localhost/mini/assets/images/2.png">
+                <img alt="" src="images/2.png">
                 <span class="username">John Doe</span>
                 <b class="caret"></b>
             </a>
@@ -265,6 +265,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>UI Elements</span>
                     </a>
                     <ul class="sub">
+                        
 						<li><a href="typography.html">Typography</a></li>
 						<li><a href="glyphicon.html">glyphicon</a></li>
                         <li><a href="grids.html">Grids</a></li>
@@ -277,22 +278,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </a>
                 </li>
                 <li class="sub-menu">
-                    <a href="javascript:;">
+                    <a class="active" href="javascript:;">
                         <i class="fa fa-th"></i>
                         <span>Data Tables</span>
                     </a>
                     <ul class="sub">
                         <li><a href="basic_table.html">Basic Table</a></li>
-                        <li><a href="responsive_table.html">Responsive Table</a></li>
+                        <li><a class="active" href="responsive_table.html">Student Details</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu">
-                    <a class="active" href="javascript:;">
+                    <a href="javascript:;">
                         <i class="fa fa-tasks"></i>
                         <span>Form Components</span>
                     </a>
                     <ul class="sub">
-                        <li><a class="active" href="form_component.html">Form Elements</a></li>
+                        <li><a href="form_component.html">Form Elements</a></li>
                         <li><a href="form_validation.html">Form Validation</a></li>
 						<li><a href="dropzone.html">Dropzone</a></li>
                     </ul>
@@ -352,234 +353,104 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--main content start-->
 <section id="main-content">
 	<section class="wrapper">
-	<div class="form-w3layouts">
-        <!-- page start-->
-        <!-- page start-->
-        <div class="row">
-            <div class="col-lg-12">
-				<form role="form" method="post">
-                    <section class="panel">
-                        <header class="panel-heading">
-                            Basic Details
-						<span class="tools pull-right">
-                            <a class="fa fa-chevron-down" href="javascript:;"></a>
-
-                        </span>
-                        </header>
-						
-                        <div class="panel-body">
-                            <div class="position-center">
-                                
-                                <div class="form-group form-group has-success">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" name="name" placeholder="Enter name">
-                                </div>
-                                <div class="form-group form-group has-success">
-                                    <label for="Date of Birth">Date of Birth</label>
-                                    <input type="date" class="form-control" name="dob" placeholder="Date of Birth">
-                                </div>
-								<div class="form-group form-group has-success">
-									<label for="class">Address</label>
-									<textarea name="address" cols="40" rows="5" class="form-control input-lg m-bot15" type="text" placeholder=".input-lg" name="address"></textarea>  
-								</div>
-                                <div class="form-group form-group has-success form-inline">
-									<label for="gender">Gender</label>
-									<div class="radio">
-										<label>
-											<input type="radio" name="gender" value="M" checked="">
-											Male
-										</label>
-									</div>
-									<div class="radio">
-										<label>
-											<input type="radio" name="gender"  value="F" checked="">
-											Female
-										</label>
-									</div>
-                                </div>
-								<div class="form-group form-group has-success ">
-                                    <label for="class">Class</label>
-									<div class="form-inline">
-										<select class="form-control" name="class">
-											<option >Class</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-										</select>
-										<select class="form-control " name="division">
-											<option >Division</option>
-											<option value="A">A</option>
-											<option value="B">B</option>
-											<option value="C">C</option>
-										</select>
-									</div>
-                                </div>
-								<div class="form-group form-group has-success">
-									<label for="class">Blood group</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="blood">
-											<option>Select</option>
-											<option value="A+">A+</option>
-											<option value="A-">A-</option>
-											<option value="B+">B+</option>
-											<option value="B-">B-</option>
-											<option value="AB+">AB+</option>
-											<option value="AB--">AB-</option>
-											<option	value="O+">O+</option>
-											<option	value="O-">O-</option>
-										</select>
-									</div>
-								</div>
-								<div class="form-group form-group has-success">
-									<label for="class">Religion</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="religion">
-											<option>Select</option>
-											<option>Hindu</option>
-											<option>Christian</option>
-										</select>
-									</div>
-								</div>
-								<div class="form-group form-group has-success">
-									<label for="class">Caste</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="caste">
-											<option>Select</option>
-											<option>Nair</option>
-										</select>
-									</div>
-								</div>
-								
-                        
-                        
-
-								
-                                
-                            
-                            </div>
-
-                        </div>
-                    </section>
-					
-					<section class="panel">
-                        <header class="panel-heading">
-                            Admission Details
-						<span class="tools pull-right">
-                            <a class="fa fa-chevron-down" href="javascript:;"></a>
-                            
-                        </span>
-                        </header>
-                        <div class="panel-body">
-                            <div class="position-center">
-                                
-                                
-                                <div class="form-group form-group has-success">
-                                    <label for="Admission Date">Date of Admission</label>
-                                    <input type="date" class="form-control" name="add_date" placeholder="Date of Admission">
-                                </div>
-                               
-								<div class="form-group form-group has-success">
-                                    <label for="class">Joined Class</label>
-									<div class="form-inline">
-										<select class="form-control" name="jclass">
-											<option >Class</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-										</select>
-										<select class="form-control " name="jdivision">
-											<option >Division</option>
-											<option value="A">A</option>
-											<option value="B">B</option>
-											<option value="C">C</option>
-										</select>
-									<div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-					<section class="panel">
-                        <header class="panel-heading">
-                            Guardian Details
-						<span class="tools pull-right">
-                            <a class="fa fa-chevron-down" href="javascript:;"></a>
-                            
-                        </span>
-                        </header>
-                        <div class="panel-body">
-                            <div class="position-center">
-                                
-                                <div class="form-group form-group has-success">
-                                    <label for="gname">Name</label>
-                                    <input type="text" class="form-control" name="gname" placeholder="Enter name">
-                                </div>
-                                <div class="form-group form-group has-success">
-                                    <label for="Date of Birth">Date of Birth</label>
-                                    <input type="date" class="form-control" name="gdob" placeholder="Date of Birth">
-                                </div>
-                                <div class="form-group form-group has-success">
-                                    <label for="Date of Birth">Relation with student</label>
-                                    <input type="text" class="form-control" name="relation" placeholder="Date of Birth">
-                                </div>
-								
-								<div class="form-group form-group has-success">
-									<label for="class">Blood group</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="gblood">
-											<option>Select</option>
-											<option value="A+">A+</option>
-											<option value="A-">A-</option>
-											<option value="B+">B+</option>
-											<option value="B-">B-</option>
-											<option value="AB+">AB+</option>
-											<option value="AB--">AB-</option>
-											<option	value="O+">O+</option>
-											<option	value="O-">O-</option>
-										</select>
-									</div>
-								</div>
-								
-								
-								
-                        
-                        <div class="form-group form-group has-success">
-							
-							<label for="class">Address</label>
-							<textarea name="gaddress" cols="40" rows="5" class="form-control input-lg m-bot15" type="text" placeholder=".input-lg" name="gaddress"></textarea>  
-                        </div>
-						<div class="form-group form-group has-success">
-                            <label for="Phone">Phone</label>
-                            <input type="text" class="form-control" name="gphone" placeholder="pone">
-                        </div>
-						<div class="form-group form-group has-success">
-                            <label for="Phone">email</label>
-                            <input type="email" class="form-control" name="gemail" placeholder="email">
-                        </div>
-
-
-								
-                                <input type="submit" class="btn btn-info" name="sub"/>
-                            
-                            </div>
-
-                        </div>
-                    </section>
-					
-				</form>
-            </div>
+		<div class="table-agile-info">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      Student Details
+    </div>
+    <div class="row w3-res-tb">
+      <div class="col-sm-5 m-b-xs">
+		<form method="post">
+			<select class="input-sm form-control w-sm inline v-middle" name="Class">
+			  <option>class</option>
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			</select>
+			<select class="input-sm form-control w-sm inline v-middle" name="division">
+			  <option>Division</option>
+			  <option value="A">A</option>
+			  <option value="B">B</option>
+			  <option value="C">C</option>
+			</select>
+			
+			<input type="submit" name="sub1" value="Apply" class="btn btn-sm btn-default"/>  
+		</form>
+      </div>
+      <div class="col-sm-4">
+      </div>
+      
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-striped b-t b-light">
+        <thead>
+          <tr>
             
-        </div>
-       
-       
+            <th>Name</th>
+            <th>class</th>
+            <th>Division</th>
+			<th>Gender</th>
+			<th>Dob</th>
+			<th>BGroup</th>
+			<th>Address</th>
+			<th>Religion</th>
+			<th>Caste</th>
+            <th style="width:30px;"></th>
+          </tr>
+        </thead>
+        <tbody>
+		<?php  
+         foreach ($h->result() as $row)  
+         {  
+            ?><tr> 
+			<td><span class="text-ellipsis"><?php echo $row->name;?></span></td>
+            <td><span class="text-ellipsis"><?php echo $row->class;?></span></td>
+			<td><span class="text-ellipsis"><?php echo $row->division;?></span></td>
+			<td><span class="text-ellipsis"><?php echo $row->gender;?></span></td>
+			<td><span class="text-ellipsis"><?php echo $row->dob;?></span></td>
+			<td><span class="text-ellipsis"><?php echo $row->blood_grp;?></span></td>
+			<td><span class="text-ellipsis"><?php echo $row->address;?></span></td>
+			<td><span class="text-ellipsis"><?php echo $row->religion;?></span></td>
+			<td><span class="text-ellipsis"><?php echo $row->cast;?></span></td>
+            <td>
+              <a href="" class="active" ui-toggle-class=""><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a>
+            </td> 
+            </tr>  
+         <?php }  
+         ?> 
+          
+            
+            
+          
+        </tbody>
+      </table>
+    </div>
+    <footer class="panel-footer">
+      <div class="row">
         
-        
-
-        <!-- page end-->
+        <div class="col-sm-5 text-center">
+          <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small>
         </div>
+        <div class="col-sm-7 text-right text-center-xs">                
+          <ul class="pagination pagination-sm m-t-none m-b-none">
+            <li><a href=""><i class="fa fa-chevron-left"></i></a></li>
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+            <li><a href=""><i class="fa fa-chevron-right"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
 </section>
  <!-- footer -->
 		  <div class="footer">
 			<div class="wthree-copyright">
-			  <p>© rahulsatheeshminiproject</a></p>
+			  <p>© 2018rahulminiproject</a></p>
 			</div>
 		  </div>
   <!-- / footer -->
@@ -587,12 +458,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!--main content end-->
 </section>
-<script src="http://localhost/mini/assets/js/bootstrap.js"></script>
-<script src="http://localhost/mini/assets/js/jquery.dcjqaccordion.2.7.js"></script>
-<script src="http://localhost/mini/assets/js/scripts.js"></script>
-<script src="http://localhost/mini/assets/js/jquery.slimscroll.js"></script>
-<script src="http://localhost/mini/assets/js/jquery.nicescroll.js"></script>
+<script src="<?php echo base_url('assets/');?>js/bootstrap.js"></script>
+<script src="<?php echo base_url('assets/');?>js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="<?php echo base_url('assets/');?>js/scripts.js"></script>
+<script src="<?php echo base_url('assets/');?>js/jquery.slimscroll.js"></script>
+<script src="<?php echo base_url('assets/');?>js/jquery.nicescroll.js"></script>
 <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
-<script src="http://localhost/mini/assets/js/jquery.scrollTo.js"></script>
+<script src="<?php echo base_url('assets/');?>js/jquery.scrollTo.js"></script>
+<script src="<?php echo base_url('assets/');?>js/jquery.scrollTo.js"></script>
 </body>
 </html>
