@@ -1,7 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /* Author: Rahul Satheesh
  * Date: 16/10/2018
- * Description: Login model class
+ /* Description: Login model class
+   Author:Rahul Satheesh s
+   Date:15/10/2018
+   Description:Model description for login action
  */
 class Login_model extends CI_Model{
     function __construct(){
