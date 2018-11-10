@@ -64,8 +64,8 @@ class staffreg_model extends CI_Model{
 	public function view()
 	{
 		
-		$this->db->select('name,class,division,gender,dob,blood_grp,address,religion,cast');
-		$this->db->from('student');
+		$this->db->select('usr_name,name,designation,dob,blood_grp');
+		$this->db->from('staff');
 		$query = $this->db->get();
 		return $query;
 		
