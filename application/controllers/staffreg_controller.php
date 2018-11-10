@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class studentreg_controller extends CI_Controller {
+class staffreg_controller extends CI_Controller {
 
 	
 	public function index()
@@ -11,15 +11,15 @@ class studentreg_controller extends CI_Controller {
 			$this->load->view('login');
 		}
 		$this->load->helper('url');
-		$this->load->view('student_reg');
-		$this->load->model('studentreg_model');
+		$this->load->view('staff_reg');
+		$this->load->model('staffreg_model');
 		if(!isset($_POST['sub']))
 		{
 			return;
 		}
-		if(isset($_POST['sub']))
-		{
-			$result=$this->studentreg_model->register();
+		//if(!isset($_POST['sub']))
+		
+			$result=$this->staffreg_model->register();
 			if(! $result)
 			{
 				//If student not added successfully, then show error message
@@ -32,8 +32,8 @@ class studentreg_controller extends CI_Controller {
 				
 				//echo '<script>alert(student admitted successfully')</script>';
 
-			} 
-		}
+			}  
+		
 
 	}
 	
