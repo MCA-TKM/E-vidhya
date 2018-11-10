@@ -19,9 +19,9 @@ class studentview_controller extends CI_Controller {
 		{
 			$this->load->view('login');
 		}
-		$this->load->model('studentreg_model');
-		$data['h']=$this->studentreg_model->view();  
-		$this->load->view('view_students',$data);
+		$this->load->model('staffreg_model');
+		$data['h']=$this->staffreg_model->view();  
+		$this->load->view('view_staff',$data);
 		        
 
 	}
