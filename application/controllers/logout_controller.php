@@ -15,9 +15,7 @@ class logout_controller extends CI_Controller {
             }
         }
 		$this->session->sess_destroy();
-		$this->load->view('login');
-
-
+		redirect('http://localhost/mini/index.php/login_controller');
 	}
 	
 }

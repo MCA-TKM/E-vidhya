@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <head>
-<title>Visitors an Admin Panel Category Bootstrap Responsive Website Template | Form_component :: w3layouts</title>
+<title></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Visitors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -34,7 +34,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="brand">
 
     <a href="index.html" class="logo">
-        VISITORS
+        STAFF REG
     </a>
     <div class="sidebar-toggle-box">
         <div class="fa fa-bars"></div>
@@ -377,16 +377,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <div class="form-group form-group has-success">
                                     <label for="Date of Birth">Date of Birth</label>
                                     <input type="date" class="form-control" name="dob" placeholder="Date of Birth" required>
-                                </div>
-								<div class="form-group form-group has-success">
-									<label for="class">Address</label>
-									<textarea name="address" cols="40" rows="5" class="form-control input-lg m-bot15" type="text" placeholder=".input-lg" name="address" required></textarea>  
-								</div>
+                                </div>								
                                 <div class="form-group form-group has-success form-inline">
 									<label for="gender">Gender</label>
 									<div class="radio">
 										<label>
-											<input type="radio" name="gender" value="M" checked="">
+											<input type="radio" name="gender" value="M" checked="" >
 											Male
 										</label>
 									</div>
@@ -397,21 +393,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</label>
 									</div>
                                 </div>
-								<div class="form-group form-group has-success ">
-                                    <label for="class">Class</label>
-									<div class="form-inline">
-										<select class="form-control" name="class">
-											<option >Class</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-										</select>
-										<select class="form-control " name="division">
-											<option >Division</option>
-											<option value="A">A</option>
-											<option value="B">B</option>
-											<option value="C">C</option>
-										</select>
-									</div>
+								<div class="form-group form-group has-success">
+									<label for="class">Designation</label>
+									<select class="form-control" name="designation" required>
+											<option >Select</option>
+											<option value="Teacher">Teacher</option>
+											<option value="Clerk">Clerk</option>
+									</select>  
+								</div>
+								<div class="form-group form-group has-success">
+                                    <label for="name">Joining Date</label>
+                                    <input type="date" class="form-control" name="jdate" placeholder="Enter name" required>
                                 </div>
 								<div class="form-group form-group has-success">
 									<label for="class">Blood group</label>
@@ -430,24 +422,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 								</div>
 								<div class="form-group form-group has-success">
-									<label for="class">Religion</label>
+                                    <label for="qualification">Qualification</label>
 									<div class="input-group-btn form-inline">
-										<select class="form-control" name="religion">
-											<option>Select</option>
-											<option>Hindu</option>
-											<option>Christian</option>
+										<select class="form-control" name="qualifiaction">
+												<option>Select</option>
+												<option value="UG">UG</option>
+												<option value="PG">PG</option>
+												<option value="Phd">Phd</option>
+												<option value="M.phil">M.phil</option>
 										</select>
 									</div>
-								</div>
-								<div class="form-group form-group has-success">
-									<label for="class">Caste</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="caste">
-											<option>Select</option>
-											<option>Nair</option>
-										</select>
-									</div>
-								</div>
+                                </div>
 								
                         
                         
@@ -462,7 +447,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					
 					<section class="panel">
                         <header class="panel-heading">
-                            Admission Details
+                            Contact Details
 						<span class="tools pull-right">
                             <a class="fa fa-chevron-down" href="javascript:;"></a>
                             
@@ -473,96 +458,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 
                                 
                                 <div class="form-group form-group has-success">
-                                    <label for="Admission Date">Date of Admission</label>
-                                    <input type="date" class="form-control" name="add_date" placeholder="Date of Admission">
-                                </div>
+									<label for="class">Address</label>
+									<textarea name="address" cols="40" rows="5" class="form-control input-lg m-bot15" type="text" placeholder=".input-lg" name="address" required></textarea>  
+								</div>
+
                                
 								<div class="form-group form-group has-success">
-                                    <label for="class">Joined Class</label>
-									<div class="form-inline">
-										<select class="form-control" name="jclass">
-											<option >Class</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-										</select>
-										<select class="form-control " name="jdivision">
-											<option >Division</option>
-											<option value="A">A</option>
-											<option value="B">B</option>
-											<option value="C">C</option>
-										</select>
-									<div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-					<section class="panel">
-                        <header class="panel-heading">
-                            Guardian Details
-						<span class="tools pull-right">
-                            <a class="fa fa-chevron-down" href="javascript:;"></a>
-                            
-                        </span>
-                        </header>
-                        <div class="panel-body">
-                            <div class="position-center">
-                                
-                                <div class="form-group form-group has-success">
-                                    <label for="gname">Name</label>
-                                    <input type="text" class="form-control" name="gname" placeholder="Enter name">
-                                </div>
-                                <div class="form-group form-group has-success">
-                                    <label for="Date of Birth">Date of Birth</label>
-                                    <input type="date" class="form-control" name="gdob" placeholder="Date of Birth">
-                                </div>
-                                <div class="form-group form-group has-success">
-                                    <label for="Date of Birth">Relation with student</label>
-                                    <input type="text" class="form-control" name="relation" placeholder="Date of Birth">
-                                </div>
-								
-								<div class="form-group form-group has-success">
-									<label for="class">Blood group</label>
-									<div class="input-group-btn form-inline">
-										<select class="form-control" name="gblood">
-											<option>Select</option>
-											<option value="A+">A+</option>
-											<option value="A-">A-</option>
-											<option value="B+">B+</option>
-											<option value="B-">B-</option>
-											<option value="AB+">AB+</option>
-											<option value="AB--">AB-</option>
-											<option	value="O+">O+</option>
-											<option	value="O-">O-</option>
-										</select>
-									</div>
+									<label for="class">Phone</label>
+									<input type="text" class="form-control" name="phone" placeholder="Enter phone" required>  
 								</div>
 								
+								<div class="form-group form-group has-success">
+									<label for="class">email</label>
+									<input type="mail" class="form-control" name="mail" placeholder="Enter email id">  
+								</div>
+								<div class="form-group form-group has-success">
+									<input type="submit" class="btn btn-info" name="sub"/>  
+								</div>
 								
-								
-                        
-                        <div class="form-group form-group has-success">
-							
-							<label for="class">Address</label>
-							<textarea name="gaddress" cols="40" rows="5" class="form-control input-lg m-bot15" type="text" placeholder=".input-lg" name="gaddress"></textarea>  
-                        </div>
-						<div class="form-group form-group has-success">
-                            <label for="Phone">Phone</label>
-                            <input type="text" class="form-control" name="gphone" placeholder="pone">
-                        </div>
-						<div class="form-group form-group has-success">
-                            <label for="Phone">email</label>
-                            <input type="email" class="form-control" name="gemail" placeholder="email">
-                        </div>
-
-
-								
-                                <input type="submit" class="btn btn-info" name="sub"/>
-                            
                             </div>
 
                         </div>
                     </section>
+					
 					
 				</form>
             </div>
