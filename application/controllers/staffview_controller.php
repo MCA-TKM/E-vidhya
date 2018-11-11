@@ -21,7 +21,7 @@ class studentview_controller extends CI_Controller {
 		}
 		$this->load->model('staffreg_model');
 		$data['h']=$this->staffreg_model->view();  
-		$this->load->view('view_staff',$data);
+		$this->load->view('index');
 		        
 
 	}
