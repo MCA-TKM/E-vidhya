@@ -270,7 +270,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </a>
                     <ul class="sub">
 						<li><a href="<?php echo base_url('index.php/studentreg_controller');?>">Add</a></li>
-						<li><a href="<?php echo base_url('index.php/studentview_controller');?>"">View</a></li>
+						<li><a href="<?php echo base_url('index.php/studentview_controller');?>">View</a></li>
                        
                     </ul>
                 </li>
@@ -280,8 +280,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>STAFF</span>
                     </a>
                     <ul class="sub">
-						<li><a href="typography.html">Add</a></li>
-						<li><a href="glyphicon.html">View</a></li>
+						<li><a href="<?php echo base_url('index.php/staffreg_controller');?>">Add</a></li>
+						<li><a href="<?php echo base_url('index.php/staffview_controller');?>">View</a></li>
                        
                     </ul>
                 </li>
